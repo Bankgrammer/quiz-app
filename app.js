@@ -16,8 +16,12 @@ form.addEventListener('submit', e => {
     });
 
     //Show results on page
+    scrollTo(0, 0);
     results.querySelector('span').textContent = `${score}%`;
     results.classList.remove('d-none');
 
 
 });
+
+
+// The window object
